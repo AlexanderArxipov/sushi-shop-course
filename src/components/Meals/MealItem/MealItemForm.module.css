@@ -1,0 +1,30 @@
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* max-width: 180px; */
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #e47b02;
+  border: 2px solid #940000;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #572300;
+  border-color: #331400;
+}
+
+.form p {
+  color: #b504f0;
+  font-weight: bold;
+  max-width: 180px;
+}
